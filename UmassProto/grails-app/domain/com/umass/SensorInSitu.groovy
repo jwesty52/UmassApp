@@ -6,22 +6,22 @@ class SensorInSitu {
 
     String instrumentId
     String name
-    String location
-    String county
-    String state
-    Double latitude
-    Double longitude
-    Double heightMSL
-    Double heightAboveGround
+//    String location
+//    String county
+//    String state
+//    Double latitude
+//    Double longitude
+//    Double heightMSL
+    String heightAboveGround
 
     Network network
 
     Integer likeSensorsInNetwork
-    Date installationDate
-    Date decommissionDate
-    Date startDate
-    Date endDate
-    String dataTransmissionFrequency
+//    Date installationDate
+//    Date decommissionDate
+//    Date startDate
+//    Date endDate
+//    String dataTransmissionFrequency
     String outputVariable
     String variableUnit
     String dataAccessibility
@@ -31,7 +31,7 @@ class SensorInSitu {
 
     /* Contact */
     Organization organization
-    Contact contact
+//    Contact contact
 
     /* Description */
     String description
@@ -40,20 +40,20 @@ class SensorInSitu {
     String model
     String operatingPrinciples
     String equations
-    Double maximumOperatingRange
-    Double minimumOperatingRange
-    Double accuracy
-    Double resolution
-    Double samplingFrequency
-    Double averagingPeriod
+    String maximumOperatingRange
+    String minimumOperatingRange
+    String accuracy
+    String resolution
+    String samplingFrequency
+    String averagingPeriod
 
     /* Calibration and Maintenance */
-    String calibrationConstants
-    String datesOfCalibration
-    String methodOfCalibration
-    String dateOfMaintenance
-    String periodOfDowntimeForMaintenance
-    Date lastSensorReplacement
+//    String calibrationConstants
+//    String datesOfCalibration
+//    String methodOfCalibration
+//    String dateOfMaintenance
+//    String periodOfDowntimeForMaintenance
+//    Date lastSensorReplacement
 
 
     /* Quality Control */
@@ -68,11 +68,11 @@ class SensorInSitu {
         dataAccessibility(type:'text')
         operatingPrinciples(type: 'text')
         equations(type: 'text')
-        calibrationConstants(type: 'text')
-        datesOfCalibration(type: 'text')
-        methodOfCalibration(type: 'text')
-        dateOfMaintenance(type: 'text')
-        periodOfDowntimeForMaintenance(type: 'text')
+//        calibrationConstants(type: 'text')
+//        datesOfCalibration(type: 'text')
+//        methodOfCalibration(type: 'text')
+//        dateOfMaintenance(type: 'text')
+//        periodOfDowntimeForMaintenance(type: 'text')
         descriptionQCQA(type: 'text')
         knownBiasesOrLimitations(type: 'text')
         qualityControlFlags(type: 'text')
