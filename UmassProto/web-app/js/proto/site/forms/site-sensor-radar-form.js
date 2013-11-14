@@ -1,14 +1,14 @@
 /**
  * Essential Estimate information.
  */
-Ext.define('Casa.network.NetworkInfo', {
+Ext.define('Casa.site.SiteSensorRadarForm', {
 
     extend: 'Ext.form.Panel',
-    alias: 'c.networkinfo',
+    alias: 'c.sitesensorform',
 
     initComponent: function() {
         Ext.apply(this, {
-            title: 'General Information',
+            title: 'Sensor Radars',
             frame: true,
 //            iconCls:'icon-estimate',
             items: this.createFields()
@@ -23,11 +23,7 @@ Ext.define('Casa.network.NetworkInfo', {
     //------------------------//
     createFields: function() {
         return [
-            {
-                xtype:'textfield',
-                fieldLabel: 'Name',
-                name: 'name'
-            },
+           Ext.create('c.sitesensorgrid')
         ]
     }
 

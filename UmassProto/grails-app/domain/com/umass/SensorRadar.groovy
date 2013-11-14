@@ -1,6 +1,8 @@
 package com.umass
 
-class SensorRadar {
+class SensorRadar implements JSONFormat{
+
+    static belongsTo = [site: Site]
 
 
     /* General Info */
@@ -8,14 +10,8 @@ class SensorRadar {
     String instrumentId
     String name
     String location
-    String county
-    String state
-    Double latitude
-    Double longitude
     Double heightMSL
     Double heightAboveGround
-
-    Network network
 
     Integer likeSensorsInNetwork
     Date installationDate
@@ -151,5 +147,114 @@ class SensorRadar {
 
 
     static constraints = {
+    }
+
+    Object formatForJSON() {
+        return [
+                id:id,
+                instrumentId: instrumentId,
+                name: name,
+                location: location,
+                heightMSL:heightMSL,
+                heightAboveGround: heightAboveGround,
+
+                likeSensorsInNetwork: likeSensorsInNetwork,
+                installationDate: installationDate,
+                decommissionDate:decommissionDate,
+                startDate:startDate,
+                endDate:endDate ,
+                dataTransmissionFrequency: dataTransmissionFrequency,
+                outputVariable:outputVariable,
+                variableUnit:variableUnit,
+                dataAccessibility:dataAccessibility,
+                dataLink:dataLink,
+                photoLink:photoLink,
+
+
+                /* Contact */
+                contact:contact,
+                organization :organization,
+
+                /* Description */
+                description:description,
+                manufacturer:manufacturer,
+                make:make,
+                model:model,
+                approximateDimensions:approximateDimensions,
+                approximateWeight:approximateWeight,
+                radarCategory:radarCategory,
+
+                /* Sensor Specifications */
+                beamWidthAzimuth:beamWidthAzimuth,
+                beamWidthElevation:beamWidthElevation,
+                rangeGateSpacing:rangeGateSpacing,
+                maximumRange:maximumRange,
+
+                /* Antenna */
+                antennaGain :antennaGain,
+                antennaDiameter:antennaDiameter,
+                antennaType:antennaType,
+                minimumAntennaTilt:minimumAntennaTilt,
+                maximumAntennaTilt:maximumAntennaTilt,
+                numberOfPanelsAntenna:numberOfPanelsAntenna,
+
+                /* Transmitter */
+                transmitterFrequency: transmitterFrequency,
+                transmitterType:transmitterType,
+                transmitterPeakPower:transmitterPeakPower,
+                transmitterAveragePower:transmitterAveragePower,
+
+                /* Radome */
+                radomeDescription:radomeDescription,
+
+                /*Waveform */
+                waveformType:waveformType,
+                pulseCompression:pulseCompression,
+                pulseWidth:pulseWidth,
+                pulseRepetitionFrequenciesDescription: pulseRepetitionFrequenciesDescription,
+                typeOfMultiplePrfUsed:typeOfMultiplePrfUsed,
+                staggeredPrt:staggeredPrt,
+                ditheredSampling:ditheredSampling,
+                sz2ProcessingDescription:sz2ProcessingDescription,
+
+                /*Polarization */
+                polarization: polarization,
+                modeOfDualPolarization:modeOfDualPolarization,
+                transmitterPowerHorizontal:transmitterPowerHorizontal,
+                transmitterPowerVertical:transmitterPowerVertical,
+                zdrCalibrationDescription:zdrCalibrationDescription,
+
+                /* Calibration and Maintenance */
+                calibrationConstants: calibrationConstants,
+                datesOfCalibration:datesOfCalibration,
+                dateOfMaintenance:dateOfMaintenance,
+                periodOfDowntimeForMaintenance:periodOfDowntimeForMaintenance,
+                solarCalibrationProcessDescription:solarCalibrationProcessDescription,
+                spectralAnalyzerCalibrationProcessDescription:spectralAnalyzerCalibrationProcessDescription,
+                noiseSourceReceiverChainCalibrationInformationDescription:noiseSourceReceiverChainCalibrationInformationDescription,
+                reflectivityCalibrationProcessDescription:reflectivityCalibrationProcessDescription,
+                additionalCalibrationTechniquesApplied:additionalCalibrationTechniquesApplied,
+                systemAlarmsDescription:systemAlarmsDescription,
+                qualityControlFlagsListAndDescription:qualityControlFlagsListAndDescription,
+
+                /* Quality Control */
+                signalProcessingFlowDescription:signalProcessingFlowDescription,
+                momentEstimationEquationsDescription:momentEstimationEquationsDescription,
+                attenuationCorrectionAlgorithmsDescription:attenuationCorrectionAlgorithmsDescription,
+                clutterRemovalAlgorithmsDescription:clutterRemovalAlgorithmsDescription,
+                clutterFilterMapUsed:clutterFilterMapUsed,
+                velocityDealiasingAlgorithmsDescription:velocityDealiasingAlgorithmsDescription,
+                rangeFoldingThreshold:rangeFoldingThreshold,
+                signalToNoiseRatioThreshold:signalToNoiseRatioThreshold,
+
+                /* Sensor Scanning */
+                scanningStrategyDescription:scanningStrategyDescription,
+                scanTypeOptionsAvailable:scanTypeOptionsAvailable,
+                numberOfElevationScansWithinVolumeScan:numberOfElevationScansWithinVolumeScan,
+                elevationScansCompriseVolumeScan:elevationScansCompriseVolumeScan,
+                maximumScanRotationSpeed:maximumScanRotationSpeed,
+                maximumScanRotationAcceleration:maximumScanRotationAcceleration,
+                rangeToCenterOfFirstBin:rangeToCenterOfFirstBin
+        ]
     }
 }

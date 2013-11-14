@@ -6,7 +6,7 @@ Ext.define('Casa.sensor.SensorSelector', {
 
     initComponent: function() {
 
-
+        SensorRadarSelector = this;
         Ext.apply(this, {
             border: 0,
             title: 'Sensors',
@@ -41,7 +41,7 @@ Ext.define('Casa.sensor.SensorSelector', {
             proxy: {
                 type: 'ajax',
                 url: 'sensor/list'
-            },
+            }
 //            autoLoad: true
         });
     },

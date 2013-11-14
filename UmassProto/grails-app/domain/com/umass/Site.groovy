@@ -4,6 +4,9 @@ import org.apache.tools.ant.types.resources.comparators.Content
 
 class Site implements JSONFormat{
 
+    static hasMany = [sensorRadars: SensorRadar]
+
+    static belongsTo  = [network: Network ]
 
     /* General Info */
     String siteId
@@ -24,7 +27,6 @@ class Site implements JSONFormat{
 
     Organization organization
     Contact contact
-    Network network
 
     /* Description */
     Date startDate

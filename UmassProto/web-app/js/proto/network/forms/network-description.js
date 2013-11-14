@@ -1,7 +1,7 @@
 /**
  * Essential Estimate information.
  */
-Ext.define('Casa.network.ProjectDescription', {
+Ext.define('Casa.network.NetworkDescription', {
 
     extend: 'Ext.form.Panel',
     alias: 'c.networkdescription',

@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="257e5afb-903e-4541-a7c8-af88d2090719" name="Default" comment="new classes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/umass/HighImpactEvents.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/umass/SiteSensorInSitu.groovy" />
+    <list default="true" id="257e5afb-903e-4541-a7c8-af88d2090719" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/proto/network/forms/network-info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/proto/site/site-sensor-radar-grid.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/js/proto/network/network-info.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-app/js/proto/network/forms/networks-form.js" afterPath="$PROJECT_DIR$/web-app/js/proto/site/forms/site-sensor-radar-form.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-app/js/proto/network/forms/project-description.js" afterPath="$PROJECT_DIR$/web-app/js/proto/network/forms/network-description.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/umass/SensorRadar.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/umass/SensorRadar.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/umass/Site.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/umass/Site.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/umass/SiteSensorInSitu.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/umass/SiteSensorInSitu.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/umass-logs/stacktrace.log" afterPath="$PROJECT_DIR$/umass-logs/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/umassProto.css" afterPath="$PROJECT_DIR$/web-app/css/umassProto.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/proto/app.js" afterPath="$PROJECT_DIR$/web-app/js/proto/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/proto/project/forms/front-page-form.js" afterPath="$PROJECT_DIR$/web-app/js/proto/project/forms/front-page-form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/proto/project/project-base.js" afterPath="$PROJECT_DIR$/web-app/js/proto/project/project-base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/proto/project/project-panel.js" afterPath="$PROJECT_DIR$/web-app/js/proto/project/project-panel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/proto/sensorRadar/sensor-selector.js" afterPath="$PROJECT_DIR$/web-app/js/proto/sensorRadar/sensor-selector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/proto/site/site-panel.js" afterPath="$PROJECT_DIR$/web-app/js/proto/site/site-panel.js" />
     </list>
     <ignored path="UmassProto.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,10 +93,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/js/proto/app.js">
+      <file leaf-file-name="network-info.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/js/proto/network/forms/network-info.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="203" column="76" selection-start="6349" selection-end="6349" vertical-scroll-proportion="0.0">
+            <state line="95" column="0" selection-start="2565" selection-end="2565" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,70 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="network-base.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/js/proto/network/network-base.js">
+      <file leaf-file-name="network-sites-form.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/js/proto/network/forms/network-sites-form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project-network-grid.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/js/proto/project/project-network-grid.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="57" selection-start="2315" selection-end="2315" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Site.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/Site.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="103" selection-start="3697" selection-end="3697" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SensorInSitu.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/SensorInSitu.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="9" selection-start="1742" selection-end="1742" vertical-scroll-proportion="1.2377179">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="30" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HighImpactEvents.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/HighImpactEvents.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="237" selection-end="237" vertical-scroll-proportion="-4.090909">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SiteSensorInSitu.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/SiteSensorInSitu.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="56" selection-start="44" selection-end="44" vertical-scroll-proportion="-1.0227273">
+            <state line="28" column="51" selection-start="0" selection-end="604" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,7 +123,64 @@
       <file leaf-file-name="network-site-grid.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/js/proto/network/network-site-grid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="54" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.0">
+            <state line="81" column="67" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site-sensor-radar-form.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/js/proto/site/forms/site-sensor-radar-form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="33" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SensorRadar.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/SensorRadar.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="171" column="86" selection-start="4910" selection-end="4910" vertical-scroll-proportion="-7.3636365">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site-sensor-radar-grid.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/js/proto/site/site-sensor-radar-grid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="33" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site-panel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/js/proto/site/site-panel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="45" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site-selector.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/js/proto/site/site-selector.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sensor-selector.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-app/js/proto/sensorRadar/sensor-selector.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="13" selection-start="1183" selection-end="1183" vertical-scroll-proportion="0.3321492">
               <folding />
             </state>
           </provider>
@@ -190,22 +201,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/umass/rest/NetworkController.groovy" />
-        <option value="$PROJECT_DIR$/web-app/js/proto/network/network-panel.js" />
-        <option value="$PROJECT_DIR$/web-app/js/proto/sensorRadar/sensor-selector.js" />
-        <option value="$PROJECT_DIR$/web-app/js/proto/site/site-selector.js" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/umass/rest/SiteController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/com/umass/Project.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/com/umass/Contact.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/com/umass/Network.groovy" />
-        <option value="$PROJECT_DIR$/web-app/js/proto/app.js" />
-        <option value="$PROJECT_DIR$/web-app/js/proto/network/network-site-grid.js" />
-        <option value="$PROJECT_DIR$/web-app/js/proto/project/project-network-grid.js" />
-        <option value="$PROJECT_DIR$/grails-app/domain/com/umass/Site.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/com/umass/HighImpactEvents.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/com/umass/SiteSensorInSitu.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/umass/SensorInSitu.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/umass/Site.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/umass/SiteSensorInSitu.groovy" />
+        <option value="$PROJECT_DIR$/web-app/js/proto/network/forms/project-description.js" />
+        <option value="$PROJECT_DIR$/web-app/js/proto/app.js" />
+        <option value="$PROJECT_DIR$/web-app/js/proto/project/project-base.js" />
+        <option value="$PROJECT_DIR$/web-app/js/proto/project/project-panel.js" />
+        <option value="$PROJECT_DIR$/web-app/css/umassProto.css" />
+        <option value="$PROJECT_DIR$/web-app/js/proto/project/forms/project-network-form.js" />
+        <option value="$PROJECT_DIR$/web-app/js/proto/network/network-info.js" />
+        <option value="$PROJECT_DIR$/web-app/js/proto/project/forms/front-page-form.js" />
+        <option value="$PROJECT_DIR$/web-app/js/proto/site/site-panel.js" />
+        <option value="$PROJECT_DIR$/web-app/js/proto/site/site-sensor-radar-grid.js" />
+        <option value="$PROJECT_DIR$/web-app/js/proto/site/forms/site-sensor-radar-form.js" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/umass/SensorRadar.groovy" />
+        <option value="$PROJECT_DIR$/web-app/js/proto/sensorRadar/sensor-selector.js" />
       </list>
     </option>
   </component>
@@ -295,6 +306,10 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -396,37 +411,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UmassProto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UmassProto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forms" />
+              <option name="myItemId" value="sensorRadar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -483,6 +468,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UmassProto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UmassProto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -928,8 +931,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1935" y="24" width="1855" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="1927" y="24" width="1855" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.7968085" order="3" side_tool="false" content_ui="tabs" />
@@ -937,22 +940,22 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24339207" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946298" sideWeight="0.7659575" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776803" sideWeight="0.1574468" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27066" sideWeight="0.7720264" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22797357" sideWeight="0.9952741" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33000556" sideWeight="0.6710671" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22662266" sideWeight="0.9952741" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24339207" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30777422" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -982,7 +985,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Committing everything, test run" />
+    <option name="LAST_COMMIT_MESSAGE" value="update all arounds" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -996,6 +999,8 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Committing everything, test run" />
+    <MESSAGE value="new classes" />
+    <MESSAGE value="update all arounds" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1005,114 +1010,120 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/umass/rest/NetworkController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="172" selection-end="172" vertical-scroll-proportion="-2.6086957" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/umass/rest/SiteController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="69" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/SensorRadar.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="76" selection-start="620" selection-end="620" vertical-scroll-proportion="0.020949721" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/Project.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="82" selection-start="1104" selection-end="1354" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/Contact.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="7" selection-start="325" selection-end="399" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/Network.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="158" selection-start="92" selection-end="92" vertical-scroll-proportion="0.118858956">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/proto/project/project-base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="77" selection-start="3812" selection-end="3812" vertical-scroll-proportion="0.0" />
+        <state line="46" column="43" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/proto/app.js">
+    <entry file="file://$PROJECT_DIR$/web-app/js/proto/project/forms/project-network-form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="76" selection-start="6349" selection-end="6349" vertical-scroll-proportion="0.0" />
+        <state line="13" column="22" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/proto/network/forms/data-information-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/proto/network/forms/communications-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/proto/project/forms/front-page-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="39" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/proto/network/forms/network-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="0" selection-start="2565" selection-end="2565" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/js/proto/network/network-panel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/proto/network/network-base.js">
+    <entry file="file://$PROJECT_DIR$/web-app/js/proto/network/forms/network-sites-form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/proto/project/project-network-grid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="57" selection-start="2315" selection-end="2315" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/Site.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="103" selection-start="3697" selection-end="3697" vertical-scroll-proportion="0.0" />
+        <state line="28" column="51" selection-start="0" selection-end="604" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/js/proto/network/network-site-grid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="54" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+        <state line="81" column="67" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/HighImpactEvents.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web-app/js/proto/site/site-selector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="237" selection-end="237" vertical-scroll-proportion="-4.090909">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/SiteSensorInSitu.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web-app/js/proto/site/site-panel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="56" selection-start="44" selection-end="44" vertical-scroll-proportion="-1.0227273">
+        <state line="18" column="45" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/SensorInSitu.groovy">
+    <entry file="file://$PROJECT_DIR$/web-app/js/proto/site/site-sensor-radar-grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="33" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/proto/site/forms/site-sensor-radar-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="33" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/umass/SensorRadar.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="86" selection-start="4910" selection-end="4910" vertical-scroll-proportion="-7.3636365">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/proto/sensorRadar/sensor-selector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="9" selection-start="1742" selection-end="1742" vertical-scroll-proportion="1.2377179">
+        <state line="43" column="13" selection-start="1183" selection-end="1183" vertical-scroll-proportion="0.3321492">
           <folding />
         </state>
       </provider>

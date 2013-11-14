@@ -44,7 +44,7 @@ Ext.define('Casa.project.ProjectBase', {
             flex: 1.4
         });
 
-        this._panel = Ext.create('c.projpanel', {
+        this._panel = Ext.create('c.projectpanel', {
             flex: 6,
             region: 'center'
         });

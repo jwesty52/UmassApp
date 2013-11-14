@@ -1,10 +1,10 @@
 /**
  * Essential Estimate information.
  */
-Ext.define('Casa.project.FrontPageForm', {
+Ext.define('Casa.network.NetworkInfo', {
 
     extend: 'Ext.form.Panel',
-    alias: 'c.projfrontpage',
+    alias: 'c.networkinfo',
 
     initComponent: function() {
         Ext.apply(this, {
@@ -22,7 +22,7 @@ Ext.define('Casa.project.FrontPageForm', {
     //    Implementation      //
     //------------------------//
     createFields: function() {
-        this._contactStore = Ext.create('c.jsonstore', {
+         this._contactStore = Ext.create('c.jsonstore', {
             model: 'Casa.Employee',
             url: 'employee/list',
             autoLoad: false
@@ -54,50 +54,45 @@ Ext.define('Casa.project.FrontPageForm', {
             valueField: 'id'
         });
 
-        this._description = Ext.create('Ext.form.field.TextArea', {
-            fieldLabel: 'Description',
-            name: 'description',
-            width: 400
-        });
 
-//        this._networkGrid = Ext.create('c.projnetgrid')
-
-
-        return [   {
+        return [
+            {
                 xtype:'textfield',
                 fieldLabel: 'Name',
                 name: 'name'
             },
-            this._description,
             {
                 xtype:'textfield',
                 fieldLabel: 'Website',
                 name: 'website'
             },
-             {
+            {
                 xtype:'textfield',
                 fieldLabel: 'Type',
                 name: 'type'
             },
-             {
+            {
+                xtype:'textfield',
+                fieldLabel: 'Description',
+                name: 'description'
+            },
+            {
                 xtype:'textfield',
                 fieldLabel: 'Partners',
                 name: 'partners'
             },
-
-             {
+            {
+                xtype:'textfield',
+                fieldLabel: 'Variables',
+                name: 'variables'
+            },
+            {
                 xtype:'textfield',
                 fieldLabel: 'History',
                 name: 'history'
             },
-            {
-                xtype:'datefield',
-                fieldLabel: 'Update Date',
-                name: 'updateDate'
-            },
             this._contactCombo,
             this._organizationCombo
-
 
         ]
     }
