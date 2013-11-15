@@ -151,7 +151,7 @@ Ext.define('UmassProto.App',{
                         },'-',
                         {
                             xtype:'button',
-                            text: 'Sensor',
+                            text: 'Sensor Radar',
                             scale   : 'large',
 //                            iconCls: 'icon-maintenance',
                             cls: 'x-btn-big',
@@ -203,13 +203,13 @@ Ext.define('UmassProto.App',{
     changePanel: function(panel,rec,toggle) {
 //        console.log(panel)
 //        console.log(rec)
-        console.log(this._rec)
+        console.log(this._rec);
         this._main.dockedItems.items[0].items.items[this._rec].toggle();
         this._panel.hide();
         panel.show();
         this._rec = rec;
         this._panel = panel;
-        console.log(panel)
+        console.log(panel);
         this._panel.buttonSelect();
         if(toggle){
             this._main.dockedItems.items[0].items.items[this._rec].toggle();
@@ -372,7 +372,7 @@ Ext.define('UmassProto.App',{
 
 
             ]
-        })
+        });
 
         Ext.define('Casa.SensorRadar', {
             extend: 'Ext.data.Model',
@@ -464,7 +464,7 @@ Ext.define('UmassProto.App',{
                 'rangeToCenterOfFirstBin'
 
             ]
-        })
+        });
 
         Ext.define('Casa.SensorInSitu', {
             extend: 'Ext.data.Model',
@@ -516,7 +516,7 @@ Ext.define('UmassProto.App',{
                 'qualityControlFlags'
             ]
 
-        })
+        });
 
 
         Ext.define('Casa.RadarData', {

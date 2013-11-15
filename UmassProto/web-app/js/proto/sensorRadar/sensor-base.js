@@ -5,10 +5,10 @@ Ext.define('Casa.sensor.SensorBase', {
 
     initComponent: function() {
         SensorBase = this;
-        this.createWindowLayout()
+        this.createWindowLayout();
         Ext.apply(this, {
 
-            title: 'Sensors',
+            title: 'Sensor Radar',
             id: 'sensorbase',
              width: 3000,
             height: 50000,

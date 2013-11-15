@@ -12,7 +12,16 @@ Ext.define('Casa.sensor.MainPanel', {
             tabBar: {defaults:{height:24}},  // new default tab height seems to clip 16px icons...
             defaults: {frame:true, bodyPadding:4},
             items: [
-                Ext.create('c.sensorinfo')
+                Ext.create('c.sensorinfo'),
+                Ext.create('c.sensordescription'),
+                Ext.create('c.sensorspecs'),
+                Ext.create('c.sensorantenna'),
+                Ext.create('c.sensortransmitter'),
+                Ext.create('c.sensorwaveform'),
+                Ext.create('c.sensorpolar'),
+                Ext.create('c.sensorquality'),
+                Ext.create('c.sensorscan')
+
 //
             ],
             dockedItems: this.createToolbar()
@@ -22,7 +31,7 @@ Ext.define('Casa.sensor.MainPanel', {
     },
 
     loadSensor: function(stubRec) {
-        console.log(stubRec)
+        console.log(stubRec);
         this.setTitle('Sensor: ' + stubRec.get('name'));
         Ext.Ajax.request({
             url: 'sensor/get/' + stubRec.get('id'),

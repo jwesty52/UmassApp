@@ -4,10 +4,10 @@ def dbHost = 'localhost'
 dataSource {
     pooled = true
     driverClassName = "com.mysql.jdbc.Driver"
-//    username = "root"
-//    password = "radar2" + '$'
-    username = 'prose'
-    password = 'prosepass'
+    username = "root"
+    password = "radar2" + '$'
+//    username = 'prose'
+//    password = 'prosepass'
 }
 
 hibernate {

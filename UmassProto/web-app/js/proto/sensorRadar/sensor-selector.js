@@ -9,7 +9,7 @@ Ext.define('Casa.sensor.SensorSelector', {
         SensorRadarSelector = this;
         Ext.apply(this, {
             border: 0,
-            title: 'Sensors',
+            title: 'Sensor Radar',
             iconCls: 'icon-search',
             forceFit: true,
             collapsible: true,
