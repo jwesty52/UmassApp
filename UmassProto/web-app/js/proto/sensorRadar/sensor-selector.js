@@ -6,10 +6,10 @@ Ext.define('Casa.sensor.SensorSelector', {
 
     initComponent: function() {
 
-
+        SensorRadarSelector = this;
         Ext.apply(this, {
             border: 0,
-            title: 'Sensors',
+            title: 'Sensor Radar',
             iconCls: 'icon-search',
             forceFit: true,
             collapsible: true,
@@ -41,7 +41,7 @@ Ext.define('Casa.sensor.SensorSelector', {
             proxy: {
                 type: 'ajax',
                 url: 'sensor/list'
-            },
+            }
 //            autoLoad: true
         });
     },

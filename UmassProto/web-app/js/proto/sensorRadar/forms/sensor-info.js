@@ -68,31 +68,7 @@ Ext.define('Casa.sensor.SensorInfo', {
             },
             this._contactCombo,
             this._organizationCombo,
-            {
-                xtype:'textfield',
-                fieldLabel: 'Location',
-                name: 'location'
-            },
-            {
-                xtype:'textfield',
-                fieldLabel: 'County',
-                name: 'county'
-            },
-            {
-                xtype:'textfield',
-                fieldLabel: 'State',
-                name: 'state'
-            },
-            {
-                xtype:'numberfield',
-                fieldLabel: 'Latitude',
-                name: 'latitude'
-            },
-            {
-                xtype:'numberfield',
-                fieldLabel: 'Longitude',
-                name: 'longitude'
-            },
+
             {
                 xtype:'numberfield',
                 fieldLabel: 'Height MSL',
@@ -128,6 +104,36 @@ Ext.define('Casa.sensor.SensorInfo', {
                 xtype:'datefield',
                 fieldLabel: 'End Date',
                 name: 'endDate'
+            },
+             {
+                xtype:'textfield',
+                fieldLabel: 'Data Tranmission Frequency',
+                name: 'dataTransmissionFrequency'
+            },
+             {
+                xtype:'textfield',
+                fieldLabel: 'Output Variable',
+                name: 'outputVariable'
+            },
+             {
+                xtype:'textfield',
+                fieldLabel: 'Variable Unit',
+                name: 'variableUnit'
+            },
+             {
+                xtype:'textfield',
+                fieldLabel: 'Data Accessibility',
+                name: 'dataAccessibility'
+            },
+             {
+                xtype:'textfield',
+                fieldLabel: 'BUTTONS HERE',
+                name: 'name'
+            },
+             {
+                xtype:'textfield',
+                fieldLabel: 'BUTTONS HERE TOO',
+                name: 'name'
             }
         ]
     }

@@ -22,34 +22,44 @@ Ext.define('UmassProto.App',{
 //        this._adminWin.show();
 //    },
 
+    writeHeaderHtml: function() {
+        return '<style="float:left;margin:0 0px 0 0px;"/>' +
+            '<div style="color: rgb(0,0,0);margin:0px 6px 0 6px;float:left"> ' +
+//            'Welcome ' + this.user.name +  ' | <a href="logout/">Log out</a></div> ' +
+            '<h2 style="float:left;"> CASA  </h2>'
+
+
+
+    },
+
 
 
     //------------------------//
     //    Implementation      //
     //------------------------//
-    createl: function() {
-
-        this._searchBase = Ext.create('c.searchbase');
-
-        this._projectBase = Ext.create('c.projbase');
-
-        this._networkBase = Ext.create('c.networkbase');
-
-        this._siteBase = Ext.create('c.sitebase');
-
-        this._sensorBase = Ext.create('c.sensorbase');
-
-        return {
-            layout: 'accordion',
-//            defaults: {border:0},
-            items: [this._searchBase, this._projectBase, this._networkBase, this._siteBase, this._sensorBase]
-        };
-    },
+//    createl: function() {
+//
+//        this._searchBase = Ext.create('c.searchbase');
+//
+//        this._projectBase = Ext.create('c.projbase');
+//
+//        this._networkBase = Ext.create('c.networkbase');
+//
+//        this._siteBase = Ext.create('c.sitebase');
+//
+//        this._sensorBase = Ext.create('c.sensorbase');
+//
+//        return {
+//            layout: 'accordion',
+////            defaults: {border:0},
+//            items: [ this._projectBase, this._networkBase, this._siteBase, this._sensorBase, this._searchBase]
+//        };
+//    },
 
     createLayout: function() {
 
 
-         this._searchBase = Ext.create('c.searchbase', {
+        this._searchBase = Ext.create('c.searchbase', {
             hidden: true
         });
 
@@ -69,7 +79,7 @@ Ext.define('UmassProto.App',{
             hidden: true
         });
 
-         this._sensorSituBase = Ext.create('c.sensorsitubase', {
+        this._sensorSituBase = Ext.create('c.sensorsitubase', {
             hidden: true
         });
 
@@ -79,36 +89,26 @@ Ext.define('UmassProto.App',{
 
 
         this._rec = 0;
-        this._panel = this._searchBase;
+        this._panel = this._projectBase;
 
         this._main = Ext.create('Ext.tab.Panel', {
-//            title: this.writeEstimateHeaderHtml(),
+//            title: this.writeHeaderHtml(),
             width: 500,
             tabBar: {hidden: true},
             region: 'center' ,
             id : 'mainTab',
             height: 500,
 //            layout:'fit',
-           items: [this._searchBase, this._projectBase, this._networkBase, this._siteBase, this._sensorBase, this._sensorSituBase],
+            items: [ this._projectBase, this._networkBase, this._siteBase, this._sensorBase, this._sensorSituBase, this._searchBase],
             dockedItems: [{
                 xtype: 'toolbar',
                 dock: 'right',
-                width: 155,
+                width: 85,
                 items:
 
                     [
 
-                        {
-                            xtype:'button',
-                            text: 'Search',
-//                            iconCls: 'icon-report',
-                            cls: 'x-btn-big',
-                            scale   : 'large',
 
-                            pressed:true,
-                            enableToggle: true,
-                            handler: function() {this.changePanel( this._searchBase,0);}, scope: this
-                        },'-',
                         {
                             xtype:'button',
                             text: 'Project',
@@ -117,9 +117,9 @@ Ext.define('UmassProto.App',{
                             scale   : 'large',
 
 
-
+                            pressed:true,
                             enableToggle: true,
-                            handler: function() {this.changePanel(this._projectBase,2);}, scope: this
+                            handler: function() {this.changePanel(this._projectBase,0);}, scope: this
 
 
                         },'-',
@@ -131,7 +131,7 @@ Ext.define('UmassProto.App',{
                             cls: 'x-btn-big',
 
                             enableToggle: true,
-                            handler: function() {this.changePanel(this._networkBase,4);}, scope: this
+                            handler: function() {this.changePanel(this._networkBase,2);}, scope: this
 //                            disabled: ActiveUser.role == ('ROLE_BROKER') || ActiveUser.role == ('ROLE_FIRMMANAGER') ||
 //                                ActiveUser.role == ('ROLE_FIRMADMIN')
 
@@ -144,19 +144,19 @@ Ext.define('UmassProto.App',{
 //                            iconCls: 'icon-employee',
                             cls: 'x-btn-big',
                             enableToggle: true,
-                            handler: function() {this.changePanel(this._siteBase,6);}, scope: this
+                            handler: function() {this.changePanel(this._siteBase,4);}, scope: this
 //                            disabled: ActiveUser.role == ('ROLE_BROKER') || ActiveUser.role == ('ROLE_FIRMMANAGER')
 
 
                         },'-',
                         {
                             xtype:'button',
-                            text: 'Sensor',
+                            text: 'Sensor Radar',
                             scale   : 'large',
 //                            iconCls: 'icon-maintenance',
                             cls: 'x-btn-big',
                             enableToggle: true,
-                            handler: function() {this.changePanel(this._sensorBase,8);}, scope: this
+                            handler: function() {this.changePanel(this._sensorBase,6);}, scope: this
 //                            disabled: ActiveUser.role == ('ROLE_BROKER') || ActiveUser.role == ('ROLE_FIRMMANAGER')
 
 
@@ -168,10 +168,21 @@ Ext.define('UmassProto.App',{
 //                            iconCls: 'icon-automation',
                             cls: 'x-btn-big',
                             enableToggle: true,
-                            handler: function() {this.changePanel(this._sensorSituBase,10);}, scope: this
+                            handler: function() {this.changePanel(this._sensorSituBase,8);}, scope: this
 //                            disabled: ActiveUser.role == ('ROLE_BROKER') || ActiveUser.role == ('ROLE_FIRMMANAGER')
 
 
+                        }, '-',
+                        {
+                            xtype:'button',
+                            text: 'Search',
+//                            iconCls: 'icon-report',
+                            cls: 'x-btn-big',
+                            scale   : 'large',
+
+
+                            enableToggle: true,
+                            handler: function() {this.changePanel( this._searchBase,10);}, scope: this
                         }
 
 
@@ -192,13 +203,13 @@ Ext.define('UmassProto.App',{
     changePanel: function(panel,rec,toggle) {
 //        console.log(panel)
 //        console.log(rec)
-     console.log(this._rec)
+        console.log(this._rec);
         this._main.dockedItems.items[0].items.items[this._rec].toggle();
         this._panel.hide();
         panel.show();
         this._rec = rec;
         this._panel = panel;
-        console.log(panel)
+        console.log(panel);
         this._panel.buttonSelect();
         if(toggle){
             this._main.dockedItems.items[0].items.items[this._rec].toggle();
@@ -361,7 +372,7 @@ Ext.define('UmassProto.App',{
 
 
             ]
-        })
+        });
 
         Ext.define('Casa.SensorRadar', {
             extend: 'Ext.data.Model',
@@ -453,7 +464,7 @@ Ext.define('UmassProto.App',{
                 'rangeToCenterOfFirstBin'
 
             ]
-        })
+        });
 
         Ext.define('Casa.SensorInSitu', {
             extend: 'Ext.data.Model',
@@ -505,7 +516,7 @@ Ext.define('UmassProto.App',{
                 'qualityControlFlags'
             ]
 
-        })
+        });
 
 
         Ext.define('Casa.RadarData', {

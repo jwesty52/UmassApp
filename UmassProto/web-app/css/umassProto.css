@@ -15,31 +15,31 @@
 
 
 
-.x-box-scroller-left {
-    float: left;
-    height: 100%;
-    z-index: 5;
-    background-image: url('../js/lib/extjs/resources/themes/images/default/tab-bar/scroll-left.gif')
-}
+/*.x-box-scroller-left {*/
+    /*float: left;*/
+    /*height: 100%;*/
+    /*z-index: 5;*/
+    /*background-image: url('../js/lib/extjs/resources/themes/images/default/tab-bar/scroll-left.gif')*/
+/*}*/
 
-.x-box-scroller-right {
-    float: left;
-    height: 100%;
-    z-index: 5;
-    background-image: url('../js/lib/extjs/resources/themes/images/default/tab-bar/scroll-right.gif')
-}
+/*.x-box-scroller-right {*/
+    /*float: left;*/
+    /*height: 100%;*/
+    /*z-index: 5;*/
+    /*background-image: url('../js/lib/extjs/resources/themes/images/default/tab-bar/scroll-right.gif')*/
+/*}*/
 
 
-.x-box-inner {
-    left: 0;
-    overflow: hidden;
-    position: relative;
-    top: 0;
-    width: 140px;
+/*.x-box-inner {*/
+    /*left: 0;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    /*top: 0;*/
+    /*width: 140px;*/
 
-}
+/*}*/
 
-.x-btn-icon x-tbar-page-next {
-   background-image: url(../js/lib/extjs/resources/themes/images/default/grid/page-next.gif)
-}
+/*.x-btn-icon x-tbar-page-next {*/
+   /*background-image: url(../js/lib/extjs/resources/themes/images/default/grid/page-next.gif)*/
+/*}*/
 

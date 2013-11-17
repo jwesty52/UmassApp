@@ -15,7 +15,8 @@ Ext.define('Casa.site.MainPanel', {
                 Ext.create('c.siteinfo'),
                 Ext.create('c.sitedescription'),
                 Ext.create('c.sitequality'),
-                Ext.create('c.sitemapsphotos')
+                Ext.create('c.sitemapsphotos'),
+                Ext.create('c.sitesensorform')
 
             ],
             dockedItems: this.createToolbar()

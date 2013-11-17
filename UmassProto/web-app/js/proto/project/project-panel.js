@@ -1,10 +1,10 @@
 /**
  * The primary container for viewing and editing Estimates.
  */
-Ext.define('Casa.project.MainPanel', {
+Ext.define('Casa.project.ProjectPanel', {
 
     extend: 'Ext.tab.Panel',
-    alias: 'c.projpanel',
+    alias: 'c.projectpanel',
 
     initComponent: function() {
 
@@ -13,13 +13,13 @@ Ext.define('Casa.project.MainPanel', {
             activeItem: 0,
             border: false,
             tabBar: {defaults:{height:24}},  // new default tab height seems to clip 16px icons...
-            defaults: {frame:true, bodyPadding:4},
+//            defaults: {frame:true, bodyPadding:4},
             items: [
                 Ext.create('c.projfrontpage'),
                 Ext.create('c.projoperationsform'),
                 Ext.create('c.projtestbedform'),
                 Ext.create('c.projnetform')
-
+//
             ],
             dockedItems: this.createToolbar()
         });

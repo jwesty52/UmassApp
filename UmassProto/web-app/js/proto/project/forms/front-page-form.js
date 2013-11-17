@@ -8,7 +8,7 @@ Ext.define('Casa.project.FrontPageForm', {
 
     initComponent: function() {
         Ext.apply(this, {
-            title: 'Front Page',
+            title: 'General Information',
             frame: true,
 //            iconCls:'icon-estimate',
             items: this.createFields()
