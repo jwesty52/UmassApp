@@ -40,16 +40,16 @@ Ext.define('Casa.site.SiteSensorRadarGrid', {
 
     },
 
-    loadNetwork: function(network) {
+    loadSite: function(site) {
         console.log('in here')
-        this._networkId = network.get('id');
+        this._siteId = site.get('id');
         this.loadGridStore();
     },
 
     createCols: function() {
         return [
             {header: 'Name', dataIndex: 'name', editor: {xtype: 'textfield'}, flex:.5},
-            {header:'Description', dataIndex:'description', editor:{xtype:'textfield'}, flex:1}
+//            {header:'Description', dataIndex:'description', editor:{xtype:'textfield'}, flex:1}
         ];
     },
 

@@ -27,6 +27,9 @@
       <sourceFolder url="file://$MODULE_DIR$/grails-app/domain" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/utils" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/test-classes" />
       <excludeFolder url="file://$MODULE_DIR$/web-app/plugins" />
@@ -35,6 +38,32 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="grails-1.3.7" level="application" />
     <orderEntry type="module" module-name="UmassProto-grailsPlugins" />
+    <orderEntry type="module-library" exported="">
+      <library name="Grails User Library (UmassProto)">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.jawr/jawr/jars/jawr-3.3.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.poi/poi/jars/poi-3.7.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.security/spring-security-web/jars/spring-security-web-3.0.7.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.security/spring-security-core/jars/spring-security-core-3.0.7.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/jfree/jcommon/jars/jcommon-1.0.15.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/jfree/jfreechart/jars/jfreechart-1.0.12.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.bouncycastle/bcmail-jdk14/jars/bcmail-jdk14-1.38.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.bouncycastle/bcprov-jdk14/jars/bcprov-jdk14-1.38.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.bouncycastle/bctsp-jdk14/jars/bctsp-jdk14-1.38.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/bouncycastle/bcprov-jdk14/jars/bcprov-jdk14-138.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/bouncycastle/bcmail-jdk14/jars/bcmail-jdk14-138.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.lowagie/itext/jars/itext-2.1.7.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-digester/commons-digester/jars/commons-digester-1.7.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/jasperreports/jasperreports/jars/jasperreports-4.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.5.jar!/" />
+          <root url="file://$MODULE_DIR$/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
 
