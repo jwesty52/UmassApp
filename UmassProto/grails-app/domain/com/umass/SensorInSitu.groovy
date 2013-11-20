@@ -46,7 +46,7 @@ class SensorInSitu {
     String resolution
     String samplingFrequency
     String averagingPeriod
-
+                                                                                                            \
     /* Calibration and Maintenance */
 //    String calibrationConstants
 //    String datesOfCalibration
